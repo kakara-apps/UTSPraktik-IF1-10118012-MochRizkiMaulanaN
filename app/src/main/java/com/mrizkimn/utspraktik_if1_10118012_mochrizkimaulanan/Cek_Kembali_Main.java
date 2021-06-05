@@ -15,7 +15,6 @@ public class Cek_Kembali_Main extends AppCompatActivity {
 
     TextView tvNik, tvNama, tvTanggal, tvJk, tvHubungan ;
     Button btnUbah, btnSimpan;
-    Dialog dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         rbAnak = findViewById(R.id.rb_main_anak);
         rbKerabat = findViewById(R.id.rb_main_kerabatLainnya);
 
-        Intent intent = new Intent(MainActivity.this, Cek_Kembali_Main.class );
+        Intent intent = new Intent(this, Cek_Kembali_Main.class );
         edtNik = findViewById(R.id.edt_main_nik);
         edtNama = findViewById(R.id.edt_main_nama);
         edtTanggal = findViewById(R.id.edt_main_tanggal);
